@@ -1,0 +1,9 @@
+/home/gepopa/uav_ws/build/uav_bringup/CMakeFiles/uninstall.dir
+/home/gepopa/uav_ws/build/uav_bringup/CMakeFiles/uav_bringup_uninstall.dir
+/home/gepopa/uav_ws/build/uav_bringup/CMakeFiles/test.dir
+/home/gepopa/uav_ws/build/uav_bringup/CMakeFiles/edit_cache.dir
+/home/gepopa/uav_ws/build/uav_bringup/CMakeFiles/rebuild_cache.dir
+/home/gepopa/uav_ws/build/uav_bringup/CMakeFiles/list_install_components.dir
+/home/gepopa/uav_ws/build/uav_bringup/CMakeFiles/install.dir
+/home/gepopa/uav_ws/build/uav_bringup/CMakeFiles/install/local.dir
+/home/gepopa/uav_ws/build/uav_bringup/CMakeFiles/install/strip.dir

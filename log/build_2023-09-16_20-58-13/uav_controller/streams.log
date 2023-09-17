@@ -1,0 +1,21 @@
+[0.733s] Invoking command in '/home/gepopa/uav_ws/src/uav_controller': AMENT_PREFIX_PATH=/home/gepopa/uav_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gepopa/uav_ws/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/gepopa/uav_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gepopa/uav_ws/build/uav_controller/prefix_override:/home/gepopa/uav_ws/install/uav_controller/lib/python3.10/site-packages:/home/gepopa/uav_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/uav_controller build --build-base /home/gepopa/uav_ws/build/uav_controller/build install --record /home/gepopa/uav_ws/build/uav_controller/install.log --single-version-externally-managed
+[0.930s] running egg_info
+[0.930s] writing ../../build/uav_controller/uav_controller.egg-info/PKG-INFO
+[0.931s] writing dependency_links to ../../build/uav_controller/uav_controller.egg-info/dependency_links.txt
+[0.931s] writing entry points to ../../build/uav_controller/uav_controller.egg-info/entry_points.txt
+[0.931s] writing requirements to ../../build/uav_controller/uav_controller.egg-info/requires.txt
+[0.931s] writing top-level names to ../../build/uav_controller/uav_controller.egg-info/top_level.txt
+[0.933s] reading manifest file '../../build/uav_controller/uav_controller.egg-info/SOURCES.txt'
+[0.933s] writing manifest file '../../build/uav_controller/uav_controller.egg-info/SOURCES.txt'
+[0.934s] running build
+[0.934s] running build_py
+[0.934s] running install
+[0.934s] running install_lib
+[0.935s] running install_data
+[0.935s] running install_egg_info
+[0.937s] removing '/home/gepopa/uav_ws/install/uav_controller/lib/python3.10/site-packages/uav_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[0.937s] Copying ../../build/uav_controller/uav_controller.egg-info to /home/gepopa/uav_ws/install/uav_controller/lib/python3.10/site-packages/uav_controller-0.0.0-py3.10.egg-info
+[0.938s] running install_scripts
+[0.953s] Installing controller_node script to /home/gepopa/uav_ws/install/uav_controller/lib/uav_controller
+[0.954s] writing list of installed files to '/home/gepopa/uav_ws/build/uav_controller/install.log'
+[0.977s] Invoked command in '/home/gepopa/uav_ws/src/uav_controller' returned '0': AMENT_PREFIX_PATH=/home/gepopa/uav_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gepopa/uav_ws/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/gepopa/uav_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gepopa/uav_ws/build/uav_controller/prefix_override:/home/gepopa/uav_ws/install/uav_controller/lib/python3.10/site-packages:/home/gepopa/uav_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/uav_controller build --build-base /home/gepopa/uav_ws/build/uav_controller/build install --record /home/gepopa/uav_ws/build/uav_controller/install.log --single-version-externally-managed

@@ -1,0 +1,21 @@
+[0.802s] Invoking command in '/home/gepopa/uav_ws/src/uav_visualizer': AMENT_PREFIX_PATH=/home/gepopa/uav_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gepopa/uav_ws/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/gepopa/uav_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gepopa/uav_ws/build/uav_visualizer/prefix_override:/home/gepopa/uav_ws/install/uav_visualizer/lib/python3.10/site-packages:/home/gepopa/uav_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/uav_visualizer build --build-base /home/gepopa/uav_ws/build/uav_visualizer/build install --record /home/gepopa/uav_ws/build/uav_visualizer/install.log --single-version-externally-managed
+[1.037s] running egg_info
+[1.037s] writing ../../build/uav_visualizer/uav_visualizer.egg-info/PKG-INFO
+[1.038s] writing dependency_links to ../../build/uav_visualizer/uav_visualizer.egg-info/dependency_links.txt
+[1.038s] writing entry points to ../../build/uav_visualizer/uav_visualizer.egg-info/entry_points.txt
+[1.038s] writing requirements to ../../build/uav_visualizer/uav_visualizer.egg-info/requires.txt
+[1.038s] writing top-level names to ../../build/uav_visualizer/uav_visualizer.egg-info/top_level.txt
+[1.039s] reading manifest file '../../build/uav_visualizer/uav_visualizer.egg-info/SOURCES.txt'
+[1.040s] writing manifest file '../../build/uav_visualizer/uav_visualizer.egg-info/SOURCES.txt'
+[1.040s] running build
+[1.040s] running build_py
+[1.040s] running install
+[1.041s] running install_lib
+[1.042s] running install_data
+[1.042s] running install_egg_info
+[1.044s] removing '/home/gepopa/uav_ws/install/uav_visualizer/lib/python3.10/site-packages/uav_visualizer-0.0.0-py3.10.egg-info' (and everything under it)
+[1.044s] Copying ../../build/uav_visualizer/uav_visualizer.egg-info to /home/gepopa/uav_ws/install/uav_visualizer/lib/python3.10/site-packages/uav_visualizer-0.0.0-py3.10.egg-info
+[1.045s] running install_scripts
+[1.065s] Installing visualizer_node script to /home/gepopa/uav_ws/install/uav_visualizer/lib/uav_visualizer
+[1.065s] writing list of installed files to '/home/gepopa/uav_ws/build/uav_visualizer/install.log'
+[1.095s] Invoked command in '/home/gepopa/uav_ws/src/uav_visualizer' returned '0': AMENT_PREFIX_PATH=/home/gepopa/uav_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gepopa/uav_ws/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/gepopa/uav_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gepopa/uav_ws/build/uav_visualizer/prefix_override:/home/gepopa/uav_ws/install/uav_visualizer/lib/python3.10/site-packages:/home/gepopa/uav_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/uav_visualizer build --build-base /home/gepopa/uav_ws/build/uav_visualizer/build install --record /home/gepopa/uav_ws/build/uav_visualizer/install.log --single-version-externally-managed

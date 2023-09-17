@@ -1,0 +1,370 @@
+[0.273s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.273s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7f8b7b5d20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7f8b7b57b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7f8b7b57b0>>)
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.294s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gepopa/uav_ws'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_bringup) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_bringup) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_bringup) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_bringup) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_bringup) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_bringup) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_bringup) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_bringup) by extension 'ros'
+[0.308s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uav_bringup' with type 'ros.ament_cmake' and name 'uav_bringup'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_controller) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_controller) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_controller) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_controller) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_controller) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_controller) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_controller) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_controller) by extension 'ros'
+[0.309s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uav_controller' with type 'ros.ament_python' and name 'uav_controller'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_teleop) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_teleop) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_teleop) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_teleop) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_teleop) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_teleop) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_teleop) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_teleop) by extension 'ros'
+[0.310s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uav_teleop' with type 'ros.ament_python' and name 'uav_teleop'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_visualizer) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_visualizer) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_visualizer) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_visualizer) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_visualizer) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_visualizer) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_visualizer) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_visualizer) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_visualizer) by extension 'ros'
+[0.311s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uav_visualizer' with type 'ros.ament_python' and name 'uav_visualizer'
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.334s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/gepopa/ros2_px4_offboard_example_ws/install
+[0.335s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 206 installed packages in /opt/ros/humble
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.372s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'px4_msgs' is in: /home/gepopa/ros2_px4_offboard_example_ws/install/px4_msgs
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding px4_msgs
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.373s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gepopa/uav_ws/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gepopa/uav_ws/install/px4_msgs', 'merge_install': False, 'path': '/home/gepopa/uav_ws/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'uav_bringup' build argument 'cmake_args' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'uav_bringup' build argument 'cmake_target' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'uav_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'uav_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'uav_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'uav_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'uav_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'uav_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'uav_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.374s] DEBUG:colcon.colcon_core.verb:Building package 'uav_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gepopa/uav_ws/build/uav_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gepopa/uav_ws/install/uav_bringup', 'merge_install': False, 'path': '/home/gepopa/uav_ws/src/uav_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'uav_teleop' build argument 'cmake_args' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'uav_teleop' build argument 'cmake_target' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'uav_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'uav_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'uav_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'uav_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'uav_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'uav_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'uav_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.375s] DEBUG:colcon.colcon_core.verb:Building package 'uav_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gepopa/uav_ws/build/uav_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gepopa/uav_ws/install/uav_teleop', 'merge_install': False, 'path': '/home/gepopa/uav_ws/src/uav_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'uav_controller' build argument 'cmake_args' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'uav_controller' build argument 'cmake_target' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'uav_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'uav_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'uav_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'uav_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'uav_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'uav_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'uav_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.376s] DEBUG:colcon.colcon_core.verb:Building package 'uav_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gepopa/uav_ws/build/uav_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gepopa/uav_ws/install/uav_controller', 'merge_install': False, 'path': '/home/gepopa/uav_ws/src/uav_controller', 'symlink_install': False, 'test_result_base': None}
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'uav_visualizer' build argument 'cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'uav_visualizer' build argument 'cmake_target' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'uav_visualizer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'uav_visualizer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'uav_visualizer' build argument 'cmake_clean_first' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'uav_visualizer' build argument 'cmake_force_configure' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'uav_visualizer' build argument 'ament_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'uav_visualizer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'uav_visualizer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.377s] DEBUG:colcon.colcon_core.verb:Building package 'uav_visualizer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gepopa/uav_ws/build/uav_visualizer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gepopa/uav_ws/install/uav_visualizer', 'merge_install': False, 'path': '/home/gepopa/uav_ws/src/uav_visualizer', 'symlink_install': False, 'test_result_base': None}
+[0.378s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.381s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.381s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gepopa/uav_ws/src/px4_msgs' with build type 'ament_cmake'
+[0.381s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gepopa/uav_ws/src/px4_msgs'
+[0.385s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.385s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.385s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.390s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gepopa/uav_ws/src/uav_bringup' with build type 'ament_cmake'
+[0.390s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gepopa/uav_ws/src/uav_bringup'
+[0.392s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.392s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.397s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gepopa/uav_ws/src/uav_teleop' with build type 'ament_python'
+[0.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_teleop', 'ament_prefix_path')
+[0.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/uav_ws/install/uav_teleop/share/uav_teleop/hook/ament_prefix_path.ps1'
+[0.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gepopa/uav_ws/install/uav_teleop/share/uav_teleop/hook/ament_prefix_path.dsv'
+[0.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/uav_ws/install/uav_teleop/share/uav_teleop/hook/ament_prefix_path.sh'
+[0.402s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.402s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gepopa/uav_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gepopa/ros2_px4_offboard_example_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/gepopa/uav_ws/build/px4_msgs -- -j12 -l12
+[0.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gepopa/uav_ws/build/uav_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gepopa/ros2_px4_offboard_example_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/gepopa/uav_ws/build/uav_bringup -- -j12 -l12
+[0.637s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gepopa/uav_ws/src/uav_teleop'
+[0.638s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.638s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gepopa/uav_ws/build/uav_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gepopa/ros2_px4_offboard_example_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/gepopa/uav_ws/build/uav_bringup -- -j12 -l12
+[0.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gepopa/uav_ws/build/uav_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gepopa/ros2_px4_offboard_example_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --install /home/gepopa/uav_ws/build/uav_bringup
+[0.683s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uav_bringup)
+[0.690s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_bringup' for CMake module files
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_bringup' for CMake config files
+[0.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gepopa/uav_ws/build/uav_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gepopa/ros2_px4_offboard_example_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --install /home/gepopa/uav_ws/build/uav_bringup
+[0.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_bringup', 'cmake_prefix_path')
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/uav_ws/install/uav_bringup/share/uav_bringup/hook/cmake_prefix_path.ps1'
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gepopa/uav_ws/install/uav_bringup/share/uav_bringup/hook/cmake_prefix_path.dsv'
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/uav_ws/install/uav_bringup/share/uav_bringup/hook/cmake_prefix_path.sh'
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_bringup/bin'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_bringup/lib/pkgconfig/uav_bringup.pc'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_bringup/lib/python3.10/site-packages'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_bringup/bin'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/uav_bringup/share/uav_bringup/package.ps1'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gepopa/uav_ws/install/uav_bringup/share/uav_bringup/package.dsv'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/uav_bringup/share/uav_bringup/package.sh'
+[0.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/uav_bringup/share/uav_bringup/package.bash'
+[0.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/uav_bringup/share/uav_bringup/package.zsh'
+[0.699s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gepopa/uav_ws/install/uav_bringup/share/colcon-core/packages/uav_bringup)
+[0.721s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uav_bringup)
+[0.723s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_bringup' for CMake module files
+[0.724s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_bringup' for CMake config files
+[0.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_bringup', 'cmake_prefix_path')
+[0.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/uav_ws/install/uav_bringup/share/uav_bringup/hook/cmake_prefix_path.ps1'
+[0.725s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gepopa/uav_ws/install/uav_bringup/share/uav_bringup/hook/cmake_prefix_path.dsv'
+[0.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/uav_ws/install/uav_bringup/share/uav_bringup/hook/cmake_prefix_path.sh'
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_bringup/bin'
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_bringup/lib/pkgconfig/uav_bringup.pc'
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_bringup/lib/python3.10/site-packages'
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_bringup/bin'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/uav_bringup/share/uav_bringup/package.ps1'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gepopa/uav_ws/install/uav_bringup/share/uav_bringup/package.dsv'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/uav_bringup/share/uav_bringup/package.sh'
+[0.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/uav_bringup/share/uav_bringup/package.bash'
+[0.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/uav_bringup/share/uav_bringup/package.zsh'
+[0.729s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gepopa/uav_ws/install/uav_bringup/share/colcon-core/packages/uav_bringup)
+[0.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gepopa/uav_ws/src/uav_teleop': PYTHONPATH=/home/gepopa/uav_ws/build/uav_teleop/prefix_override:/home/gepopa/uav_ws/install/uav_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/uav_teleop build --build-base /home/gepopa/uav_ws/build/uav_teleop/build install --record /home/gepopa/uav_ws/build/uav_teleop/install.log --single-version-externally-managed
+[1.253s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_teleop' for CMake module files
+[1.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gepopa/uav_ws/src/uav_teleop' returned '0': PYTHONPATH=/home/gepopa/uav_ws/build/uav_teleop/prefix_override:/home/gepopa/uav_ws/install/uav_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/uav_teleop build --build-base /home/gepopa/uav_ws/build/uav_teleop/build install --record /home/gepopa/uav_ws/build/uav_teleop/install.log --single-version-externally-managed
+[1.254s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_teleop' for CMake config files
+[1.254s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_teleop/lib'
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_teleop/bin'
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_teleop/lib/pkgconfig/uav_teleop.pc'
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_teleop/lib/python3.10/site-packages'
+[1.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_teleop', 'pythonpath')
+[1.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/uav_ws/install/uav_teleop/share/uav_teleop/hook/pythonpath.ps1'
+[1.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gepopa/uav_ws/install/uav_teleop/share/uav_teleop/hook/pythonpath.dsv'
+[1.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/uav_ws/install/uav_teleop/share/uav_teleop/hook/pythonpath.sh'
+[1.259s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_teleop/bin'
+[1.259s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uav_teleop)
+[1.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/uav_teleop/share/uav_teleop/package.ps1'
+[1.262s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gepopa/uav_ws/install/uav_teleop/share/uav_teleop/package.dsv'
+[1.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/uav_teleop/share/uav_teleop/package.sh'
+[1.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/uav_teleop/share/uav_teleop/package.bash'
+[1.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/uav_teleop/share/uav_teleop/package.zsh'
+[1.263s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gepopa/uav_ws/install/uav_teleop/share/colcon-core/packages/uav_teleop)
+[1.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gepopa/uav_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gepopa/ros2_px4_offboard_example_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/gepopa/uav_ws/build/px4_msgs -- -j12 -l12
+[5.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gepopa/uav_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gepopa/ros2_px4_offboard_example_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --install /home/gepopa/uav_ws/build/px4_msgs
+[5.526s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[5.528s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/px4_msgs' for CMake module files
+[5.529s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/px4_msgs' for CMake config files
+[5.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[5.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/uav_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[5.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gepopa/uav_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[5.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/uav_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[5.533s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/px4_msgs/lib'
+[5.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[5.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/uav_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[5.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gepopa/uav_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[5.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/uav_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[5.536s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/px4_msgs/bin'
+[5.536s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[5.537s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/px4_msgs/lib/python3.10/site-packages'
+[5.537s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/px4_msgs/bin'
+[5.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[5.539s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gepopa/uav_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[5.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[5.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[5.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[5.541s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gepopa/uav_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[5.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gepopa/uav_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gepopa/ros2_px4_offboard_example_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --install /home/gepopa/uav_ws/build/px4_msgs
+[13.104s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[13.108s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/px4_msgs' for CMake module files
+[13.109s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/px4_msgs' for CMake config files
+[13.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[13.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/uav_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[13.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gepopa/uav_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[13.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/uav_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[13.115s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/px4_msgs/lib'
+[13.115s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[13.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/uav_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[13.118s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gepopa/uav_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[13.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/uav_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[13.120s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/px4_msgs/bin'
+[13.120s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[13.120s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/px4_msgs/lib/python3.10/site-packages'
+[13.120s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/px4_msgs/bin'
+[13.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[13.123s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gepopa/uav_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[13.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[13.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[13.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[13.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gepopa/uav_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[13.143s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gepopa/uav_ws/src/uav_controller' with build type 'ament_python'
+[13.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_controller', 'ament_prefix_path')
+[13.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/uav_ws/install/uav_controller/share/uav_controller/hook/ament_prefix_path.ps1'
+[13.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gepopa/uav_ws/install/uav_controller/share/uav_controller/hook/ament_prefix_path.dsv'
+[13.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/uav_ws/install/uav_controller/share/uav_controller/hook/ament_prefix_path.sh'
+[13.148s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.148s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.153s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gepopa/uav_ws/src/uav_visualizer' with build type 'ament_python'
+[13.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_visualizer', 'ament_prefix_path')
+[13.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/uav_ws/install/uav_visualizer/share/uav_visualizer/hook/ament_prefix_path.ps1'
+[13.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gepopa/uav_ws/install/uav_visualizer/share/uav_visualizer/hook/ament_prefix_path.dsv'
+[13.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/uav_ws/install/uav_visualizer/share/uav_visualizer/hook/ament_prefix_path.sh'
+[13.158s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.158s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.371s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gepopa/uav_ws/src/uav_controller'
+[13.372s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.372s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.580s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gepopa/uav_ws/src/uav_visualizer'
+[13.581s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.581s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gepopa/uav_ws/src/uav_controller': AMENT_PREFIX_PATH=/home/gepopa/uav_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gepopa/uav_ws/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/gepopa/uav_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gepopa/uav_ws/build/uav_controller/prefix_override:/home/gepopa/uav_ws/install/uav_controller/lib/python3.10/site-packages:/home/gepopa/uav_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/uav_controller build --build-base /home/gepopa/uav_ws/build/uav_controller/build install --record /home/gepopa/uav_ws/build/uav_controller/install.log --single-version-externally-managed
+[13.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gepopa/uav_ws/src/uav_visualizer': AMENT_PREFIX_PATH=/home/gepopa/uav_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gepopa/uav_ws/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/gepopa/uav_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gepopa/uav_ws/build/uav_visualizer/prefix_override:/home/gepopa/uav_ws/install/uav_visualizer/lib/python3.10/site-packages:/home/gepopa/uav_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/uav_visualizer build --build-base /home/gepopa/uav_ws/build/uav_visualizer/build install --record /home/gepopa/uav_ws/build/uav_visualizer/install.log --single-version-externally-managed
+[14.133s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_controller' for CMake module files
+[14.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gepopa/uav_ws/src/uav_controller' returned '0': AMENT_PREFIX_PATH=/home/gepopa/uav_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gepopa/uav_ws/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/gepopa/uav_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gepopa/uav_ws/build/uav_controller/prefix_override:/home/gepopa/uav_ws/install/uav_controller/lib/python3.10/site-packages:/home/gepopa/uav_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/uav_controller build --build-base /home/gepopa/uav_ws/build/uav_controller/build install --record /home/gepopa/uav_ws/build/uav_controller/install.log --single-version-externally-managed
+[14.134s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_controller' for CMake config files
+[14.135s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_controller/lib'
+[14.135s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_controller/bin'
+[14.135s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_controller/lib/pkgconfig/uav_controller.pc'
+[14.135s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_controller/lib/python3.10/site-packages'
+[14.135s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_controller', 'pythonpath')
+[14.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/uav_ws/install/uav_controller/share/uav_controller/hook/pythonpath.ps1'
+[14.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gepopa/uav_ws/install/uav_controller/share/uav_controller/hook/pythonpath.dsv'
+[14.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/uav_ws/install/uav_controller/share/uav_controller/hook/pythonpath.sh'
+[14.139s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_controller/bin'
+[14.139s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uav_controller)
+[14.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/uav_controller/share/uav_controller/package.ps1'
+[14.141s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gepopa/uav_ws/install/uav_controller/share/uav_controller/package.dsv'
+[14.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/uav_controller/share/uav_controller/package.sh'
+[14.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/uav_controller/share/uav_controller/package.bash'
+[14.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/uav_controller/share/uav_controller/package.zsh'
+[14.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gepopa/uav_ws/install/uav_controller/share/colcon-core/packages/uav_controller)
+[14.152s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_visualizer' for CMake module files
+[14.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gepopa/uav_ws/src/uav_visualizer' returned '0': AMENT_PREFIX_PATH=/home/gepopa/uav_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gepopa/uav_ws/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/gepopa/uav_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gepopa/uav_ws/build/uav_visualizer/prefix_override:/home/gepopa/uav_ws/install/uav_visualizer/lib/python3.10/site-packages:/home/gepopa/uav_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/uav_visualizer build --build-base /home/gepopa/uav_ws/build/uav_visualizer/build install --record /home/gepopa/uav_ws/build/uav_visualizer/install.log --single-version-externally-managed
+[14.153s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_visualizer' for CMake config files
+[14.154s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_visualizer/lib'
+[14.154s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_visualizer/bin'
+[14.154s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_visualizer/lib/pkgconfig/uav_visualizer.pc'
+[14.154s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_visualizer/lib/python3.10/site-packages'
+[14.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_visualizer', 'pythonpath')
+[14.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/uav_ws/install/uav_visualizer/share/uav_visualizer/hook/pythonpath.ps1'
+[14.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gepopa/uav_ws/install/uav_visualizer/share/uav_visualizer/hook/pythonpath.dsv'
+[14.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/uav_ws/install/uav_visualizer/share/uav_visualizer/hook/pythonpath.sh'
+[14.158s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/uav_ws/install/uav_visualizer/bin'
+[14.158s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uav_visualizer)
+[14.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/uav_visualizer/share/uav_visualizer/package.ps1'
+[14.160s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gepopa/uav_ws/install/uav_visualizer/share/uav_visualizer/package.dsv'
+[14.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/uav_visualizer/share/uav_visualizer/package.sh'
+[14.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/uav_visualizer/share/uav_visualizer/package.bash'
+[14.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/uav_ws/install/uav_visualizer/share/uav_visualizer/package.zsh'
+[14.163s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gepopa/uav_ws/install/uav_visualizer/share/colcon-core/packages/uav_visualizer)
+[14.163s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.163s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.163s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.163s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.169s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.169s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.169s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.180s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.181s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gepopa/uav_ws/install/local_setup.ps1'
+[14.182s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gepopa/uav_ws/install/_local_setup_util_ps1.py'
+[14.183s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gepopa/uav_ws/install/setup.ps1'
+[14.185s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gepopa/uav_ws/install/local_setup.sh'
+[14.185s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gepopa/uav_ws/install/_local_setup_util_sh.py'
+[14.186s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gepopa/uav_ws/install/setup.sh'
+[14.187s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gepopa/uav_ws/install/local_setup.bash'
+[14.188s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gepopa/uav_ws/install/setup.bash'
+[14.189s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gepopa/uav_ws/install/local_setup.zsh'
+[14.189s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gepopa/uav_ws/install/setup.zsh'

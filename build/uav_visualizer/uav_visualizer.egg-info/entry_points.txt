@@ -1,0 +1,3 @@
+[console_scripts]
+visualizer_node = uav_visualizer.visualizer_node:main
+

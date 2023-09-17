@@ -1,0 +1,37 @@
+[0.543s] Invoking command in '/home/gepopa/uav_ws/src/uav_teleop': PYTHONPATH=/home/gepopa/uav_ws/build/uav_teleop/prefix_override:/home/gepopa/uav_ws/install/uav_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/uav_teleop build --build-base /home/gepopa/uav_ws/build/uav_teleop/build install --record /home/gepopa/uav_ws/build/uav_teleop/install.log --single-version-externally-managed
+[0.758s] running egg_info
+[0.759s] creating ../../build/uav_teleop/uav_teleop.egg-info
+[0.759s] writing ../../build/uav_teleop/uav_teleop.egg-info/PKG-INFO
+[0.759s] writing dependency_links to ../../build/uav_teleop/uav_teleop.egg-info/dependency_links.txt
+[0.759s] writing entry points to ../../build/uav_teleop/uav_teleop.egg-info/entry_points.txt
+[0.759s] writing requirements to ../../build/uav_teleop/uav_teleop.egg-info/requires.txt
+[0.760s] writing top-level names to ../../build/uav_teleop/uav_teleop.egg-info/top_level.txt
+[0.760s] writing manifest file '../../build/uav_teleop/uav_teleop.egg-info/SOURCES.txt'
+[0.761s] reading manifest file '../../build/uav_teleop/uav_teleop.egg-info/SOURCES.txt'
+[0.762s] writing manifest file '../../build/uav_teleop/uav_teleop.egg-info/SOURCES.txt'
+[0.762s] running build
+[0.762s] running build_py
+[0.762s] creating /home/gepopa/uav_ws/build/uav_teleop/build
+[0.762s] creating /home/gepopa/uav_ws/build/uav_teleop/build/lib
+[0.763s] creating /home/gepopa/uav_ws/build/uav_teleop/build/lib/uav_teleop
+[0.763s] copying uav_teleop/uav_teleop_node.py -> /home/gepopa/uav_ws/build/uav_teleop/build/lib/uav_teleop
+[0.763s] copying uav_teleop/__init__.py -> /home/gepopa/uav_ws/build/uav_teleop/build/lib/uav_teleop
+[0.763s] running install
+[0.763s] running install_lib
+[0.764s] creating /home/gepopa/uav_ws/install/uav_teleop/lib/python3.10/site-packages/uav_teleop
+[0.764s] copying /home/gepopa/uav_ws/build/uav_teleop/build/lib/uav_teleop/uav_teleop_node.py -> /home/gepopa/uav_ws/install/uav_teleop/lib/python3.10/site-packages/uav_teleop
+[0.764s] copying /home/gepopa/uav_ws/build/uav_teleop/build/lib/uav_teleop/__init__.py -> /home/gepopa/uav_ws/install/uav_teleop/lib/python3.10/site-packages/uav_teleop
+[0.765s] byte-compiling /home/gepopa/uav_ws/install/uav_teleop/lib/python3.10/site-packages/uav_teleop/uav_teleop_node.py to uav_teleop_node.cpython-310.pyc
+[0.768s] byte-compiling /home/gepopa/uav_ws/install/uav_teleop/lib/python3.10/site-packages/uav_teleop/__init__.py to __init__.cpython-310.pyc
+[0.768s] running install_data
+[0.768s] creating /home/gepopa/uav_ws/install/uav_teleop/share/ament_index
+[0.768s] creating /home/gepopa/uav_ws/install/uav_teleop/share/ament_index/resource_index
+[0.768s] creating /home/gepopa/uav_ws/install/uav_teleop/share/ament_index/resource_index/packages
+[0.768s] copying resource/uav_teleop -> /home/gepopa/uav_ws/install/uav_teleop/share/ament_index/resource_index/packages
+[0.768s] copying package.xml -> /home/gepopa/uav_ws/install/uav_teleop/share/uav_teleop
+[0.769s] running install_egg_info
+[0.769s] Copying ../../build/uav_teleop/uav_teleop.egg-info to /home/gepopa/uav_ws/install/uav_teleop/lib/python3.10/site-packages/uav_teleop-0.0.0-py3.10.egg-info
+[0.769s] running install_scripts
+[0.787s] Installing uav_teleop_node script to /home/gepopa/uav_ws/install/uav_teleop/lib/uav_teleop
+[0.787s] writing list of installed files to '/home/gepopa/uav_ws/build/uav_teleop/install.log'
+[0.818s] Invoked command in '/home/gepopa/uav_ws/src/uav_teleop' returned '0': PYTHONPATH=/home/gepopa/uav_ws/build/uav_teleop/prefix_override:/home/gepopa/uav_ws/install/uav_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/uav_teleop build --build-base /home/gepopa/uav_ws/build/uav_teleop/build install --record /home/gepopa/uav_ws/build/uav_teleop/install.log --single-version-externally-managed
