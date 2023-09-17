@@ -1,7 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000218] (-) JobUnselected: {'identifier': 'px4_msgs'}
-[0.000290] (-) JobUnselected: {'identifier': 'uav_bringup'}
-[0.000448] (-) JobUnselected: {'identifier': 'uav_controller'}
-[0.000509] (-) JobUnselected: {'identifier': 'uav_teleop'}
-[0.000539] (-) JobUnselected: {'identifier': 'uav_visualizer'}
-[0.000556] (-) EventReactorShutdown: {}

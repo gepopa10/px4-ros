@@ -1,3 +1,0 @@
-[console_scripts]
-uav_teleop_node = uav_teleop.uav_teleop_node:main
-
