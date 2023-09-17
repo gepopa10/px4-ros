@@ -2,3 +2,6 @@
 **/build/
 **/log/
 **/install/
+build/
+log/
+install/
