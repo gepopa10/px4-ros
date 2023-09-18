@@ -4,7 +4,7 @@ This repository holds a PX4 simulation demo with gazebo-classic and ROS2 Humble.
 
 *Everything is containerized, for quick setup and test*
 
-[Screenshot](./media/demo.png)
+![Screenshot](./media/demo.png)
 
 ## Quickstart
 
